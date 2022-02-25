@@ -23,7 +23,7 @@ print(myfunc(4,8))
 
 def animal_cracker(word):
   check = word.lower().split()
-  # return check[0][0] == check[1][0]
+  # return check[0][0] == check[1][0] , we can do this way too
   if check[0][0] == check[1][0]:
     return True
   else:
@@ -35,7 +35,7 @@ print(animal_cracker('not level'))
 # makes twenty: given teo integers, return True if the sum of the integers is 20 or if one of the integers is 20. if not return false
 
 def makes_twenty(a,b):
-  # return a == 20 or b == 20 or (a+b) == 20
+  # return a == 20 or b == 20 or (a+b) == 20  , we can do this way too
   if a == 20 or b == 20 or (a+b) == 20:
     return True
   else:
@@ -52,7 +52,7 @@ print(makes_twenty(10,10))
 def old_macdonald(name):
   # first_half = name[:3]
   # second_half = name[3:]
-  # return first_half.capitalize() + second_half.capitalize()
+  # return first_half.capitalize() + second_half.capitalize()  , we can do this way too
   out = []
   for w in range(len(name)):
     if w == 0 or w == 3:

@@ -4,7 +4,7 @@
 
 def find33(mylist):
   for i in range(len(mylist)-1):
-    # if mylist[i:i+1] == [3,3]
+    # if mylist[i:i+1] == [3,3] , we can do this way too
     if mylist[i] == mylist[i+1] == 3:
       return True  
   return False
@@ -17,7 +17,7 @@ print(find33([1,3,3]))
 def paper_doll(name):
   # resutl = ''
   # for char in name:
-  #   resutl += char*3
+  #   resutl += char*3 , we can do this way too
   out = []
   for i in range(len(name)):
     v = name[i]*3
